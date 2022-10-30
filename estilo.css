@@ -1,0 +1,88 @@
+body{
+    background-image: url(img/fondo.jpg);
+    display: flex;
+   height: 600px;
+   flex-direction: column;
+   padding: 1em;
+}
+#navegador{
+   display: flex;
+   flex-direction:row;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #dfb176c5;
+    border: 1px solid #dfb176c5;
+    text-decoration: none;
+ }
+ #navegador li a:hover{
+    background-color: #7a5428;
+    color: #eeca9cc5;
+ }
+ @media (max-width: 600px)and (orientation:portrait){
+
+   #navegador{
+      flex-direction: column;
+      width:100%;
+      height: auto;
+   }
+   footer{
+      flex-direction: column
+   }
+
+   
+ }
+ .nav-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .nav-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+  }
+  h1{
+    background-color: #7a54288a;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Cookie', cursiva;
+    color:rgb(54, 20, 0);
+  }
+ p{
+      background-color: #7a54288a;
+      text-align: center;
+      font-size: x-large;
+      font-family: 'Cookie', cursiva;
+      color:rgb(54, 20, 0);
+ }
+ #carouselExampleControls{
+    justify-items: center; 
+    align-items: center; 
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: auto;
+    box-sizing: border-box;
+ }
+ 
+footer{
+   background-color: #7a54288a;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Cookie', cursiva;
+    color:rgb(54, 20, 0);
+    display: flex;
+    width: 100%;
+}
